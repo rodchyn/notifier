@@ -1,6 +1,8 @@
 {
     "name": "rodchyn/notifier",
     "description": "Sismo notifier port for custom notifications",
+    "keywords": ["dbus", "growl", "notification"],
+    "license": "MIT",
     "authors": [
         {
             "name": "Yura Rodchyn",
@@ -9,5 +11,9 @@
     ],
     "require": {
 
-    }
+    },
+    "autoload": {
+        "psr-0": { "Rodchyn\\Notifier": "" }
+    },
+    "target-dir": "Rodchyn/Notifier"
 }
