@@ -1,0 +1,13 @@
+{
+    "name": "rodchyn/notifier",
+    "description": "Sismo notifier port for custom notifications",
+    "authors": [
+        {
+            "name": "Yura Rodchyn",
+            "email": "rodchyn@gmail.com"
+        }
+    ],
+    "require": {
+
+    }
+}
