@@ -10,6 +10,9 @@ To install add it ower composer
 And simply
 
     <?php
+    
+    require_once 'vendor/autoload.php';
+    
     $notifier = new \Rodchyn\Notifier\DBusNotifier();
     $notifier->notify('Title', 'Notification text');
     
